@@ -25,12 +25,24 @@ small 	=> h1 = 1.0 em 	h2 = 0.5 em 		p = 0.25 em
 */
 
 
+/* ---------------- Variables -------------------*/
+
+:root{
+
+	--Navy : #0A1931;
+	--Yellow : #FFC947;
+	--Blue : #185ADB;
+	--Grey : #EFEFEF;
+	--DarkGrey : #e6e6e6;
+
+}
+
 
 /* ---------------- Elements -------------------*/
 
 html {
     height: 100%;
-    background: radial-gradient(ellipse at bottom, #0A1931 0%, #0A1931 100%);
+    background: radial-gradient(ellipse at bottom, var(--Navy) 0%, var(--Navy) 100%);
 
 }
 
@@ -63,20 +75,20 @@ p{
 
 /* Colour Schemes and Fonts*/
 .color-yellow{
-	color: #FFC947;
+	color: var(--Yellow);
 }
 
 .color-navy{
-	color: #0A1931;
+	color: var(--Navy);
 }
 
 .color-grey{
-	color: #EFEFEF;
+	color: var(--Grey);
 	margin-bottom: 0.5em;
 }
 
 h2, .color-blue{
-	color: #185ADB;
+	color: var(--Blue);
 }
 
 .font-Fancy{
@@ -84,7 +96,7 @@ h2, .color-blue{
 }
 
 a:hover{
-	color: #FFC947;
+	color: var(--Yellow);
 }
 
 a, a:active {
@@ -98,14 +110,14 @@ a, a:active {
 .div-hero{
 	width: 100vw;
 	height: 100vh;
-	background-color: #0A1931;
+	background-color: var(--Navy);
 }
 
 
 .div-aboutMe{
 	width: 80vw;
 	height: 100vh;
-	background-color: #EFEFEF;
+	background-color: var(--Grey);
 	z-index: 1;
 }
 
@@ -119,7 +131,7 @@ a, a:active {
 .div-projects{
 	width: 80vw;
 	height: 100vh;
-	background-color: #e6e6e6;
+	background-color: var(--DarkGrey);
 	z-index: 1;
 }
 
@@ -127,14 +139,14 @@ a, a:active {
 .div-contactMe{
 	width: 40vw;
 	height: 90vh;
-	background-color: #EFEFEF;
+	background-color: var(--Grey);
 	z-index: 1;
 }
 
 .div-contactMeMessage{
 	width: 40vw;
 	height: 90vh;
-	background-color: #EFEFEF;
+	background-color: var(--Grey);
 	z-index: 1;
 }
 
@@ -142,7 +154,7 @@ a, a:active {
 .div-footer{
 	width: 100vw;
 	height: 10vh;
-	background-color:#0A1931;
+	background-color: var(--Navy);
 	z-index: 1;
 }
 
@@ -193,7 +205,7 @@ a, a:active {
 
 .div-socials-border{
 display: flex;
-border-top: 3px solid #0A1931;
+border-top: 3px solid var(--Navy);
 width: 50%;
 margin-top: 50px;
 }
@@ -214,7 +226,7 @@ padding: 25px;
 
 
 .footer-content{
-	color:#185ADB ;
+	color: var(--Blue) ;
 	font-size: 12px;
 }
 
@@ -228,7 +240,7 @@ padding: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-  color:#0A1931 ;
+  color: var(--Navy) ;
   text-transform: uppercase;
   font-weight: 600;
 	margin: auto auto;
@@ -239,8 +251,8 @@ padding: 25px;
 
 
 .button-contact {
-  color: #0A1931;
-  border: 3px solid #FFC947;
+  color: var(--Navy);
+  border: 3px solid var(--Yellow);
   background-image: -webkit-linear-gradient(30deg, #FFC947 50%, transparent 50%);
   background-image: linear-gradient(30deg, #FFC947 50%, transparent 50%);
   background-size: 500px;
@@ -252,8 +264,9 @@ padding: 25px;
 
 .button-contact:hover {
   background-position: 100%;
-  color: #185ADB;
+  color: var(--Blue);
 }
+
 
 
 .button-skill{
@@ -266,7 +279,7 @@ padding: 25px;
   margin-bottom: 1px;
   display: inline-block;
   margin-top: 3%;
-  color: #0A1931;
+  color: var(--Navy);
   border: 3px solid #FFC947;
   margin-top: 20px;
 }
@@ -283,19 +296,19 @@ padding: 25px;
 	align-items: center;
 	height: 5vh;
 	top: 0;
-	background: #0A1931;
+	background: var(--Navy);
 	z-index: 2;
 	color:#185ADB ;
 }
 
 .nav__title {
 	margin: 0px 30px;
-	background: #0A1931
+	background: var(--Navy)
 }
 .nav__item{
 	display: inline-block;
 	margin: 0px 30px;
-	background: #0A1931;
+	background: var(--Navy);
 	color:#185ADB ;
 	text-decoration: none;
 }
@@ -322,7 +335,7 @@ input{
 	margin-bottom: 10px;
 	margin-right: 30px;
 	border: none;
-  border-bottom: 2px solid  #0A1931;
+  border-bottom: 2px solid  var(--Navy);
   line-height: 25px;
   padding-top: 10px;
   width: 200px;
@@ -335,7 +348,7 @@ textarea{
 	width: 437px;
 	margin-bottom: 30px;
 	margin-top: 30px;
-  border: 1px solid  #0A1931;
+  border: 1px solid  var(--Navy);
 }
 
 #subject{
