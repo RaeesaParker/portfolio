@@ -30,12 +30,12 @@
 <body>
 
 	<!------------------------ STARS BACKGROUND ------------------------>
+
 <!-- 	<div id="starsBox">
 		<div id="stars"></div>
 		<div id="stars2"></div>
 		<div id="stars3"></div>
 	</div> -->
-
 
 		<!------------------------ NAVBAR ------------------------>
 		<nav class="navbar navbar-expand-lg sticky-top">
@@ -70,7 +70,7 @@
 
 	<!-- HEADER SECTION -->
 	<header>
-		<section id="sec-hero">
+		<section class="sec-basic" id="sec-hero">
 			<div class="hero-flex-container">
 				<div class="hero-flex-item">
 					<h1 class="color-grey">Hello, I'm <span class="color-yellow font-Fancy">Raeesa Parker</span>. </h1>
@@ -86,17 +86,26 @@
 
 	<!-- MAIN SECTION -->
 	<main>
-		<section id="sec-aboutMe">
-			<div class="flex-container"> 
-				<div  class="div-aboutMe">
-					<div>
-						<h2 class="font-Fancy top-title">Hello! </h2>
+		<section class="sec-basic"  id="sec-aboutMe">
+			<div class="div-aboutMe">
+				
+				<div class="about-flex-container">
+					<div class="about-flex-item">
+						<h3 id="h3-hello" class="font-Fancy">Hello! </h3>
 						<p class="color-navy textbox-justify" >My name is Raeesa Parker, and I'm a full-stack web developer from the U.K. I used to be an astronomer, using code to solve problems on the largest of scales. Now I'm a full-stack web developer, developing <span class="color-blue">simple</span>, <span class="color-blue">clean</span>, and <span class="color-blue">user-friendly</span> websites that are truly out of this world.</p>
 
-						<p class="textbox-justify">I'm open for projects where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me. </p>
-						 <a class="button button-contact" href="#sec-contact">Contact</a>
+						<p class="color-navy textbox-justify">I'm open for projects where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me. </p>
+						 <a class="button button-contact" href="#sec-contact">CONTACT</a>
 					</div>
+					<div class="about-flex-item">
+						<h3 class="font-Fancy">Education</h3>
+						<img id="fig-timeline" src="./assets/fig-timeline.png">
+					</div>
+				</div>
+			</div>
+		</section>
 
+<!-- 
 					<div>
 						<h2 class="font-Fancy">My Skills</h2>
 						<div class="flex-container"> 
@@ -111,11 +120,7 @@
 							<div class="button-skill">MySQL</div>
 							<div class="button-skill">GIT</div>
 						</div>	
-					</div>
-				</div>	
-			</div>
-		</section>
-
+					</div> -->
 
 
 		<section id="sec-projects">
