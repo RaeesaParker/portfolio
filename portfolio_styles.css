@@ -19,7 +19,7 @@ small 	=> h1 = 1.0 em 	h2 = 0.5 em 		p = 0.25 em
 
 
 /* Media query sizes 
- large > 1000px 
+ large > 700px 
 
  medium > 500px
 */
@@ -28,14 +28,17 @@ small 	=> h1 = 1.0 em 	h2 = 0.5 em 		p = 0.25 em
 /* ---------------- Variables -------------------*/
 
 :root{
-
 	--Navy : #0A1931;
 	--Yellow : #FFC947;
 	--Blue : #185ADB;
 	--Grey : #EFEFEF;
 	--DarkGrey : #e6e6e6;
 
+	--font-serif: 'Playfair Display', serif; 
+	--font-sansSerif: 'Source Sans Pro', sans-serif;;
 }
+
+
 
 
 /* ---------------- Elements -------------------*/
@@ -43,14 +46,12 @@ small 	=> h1 = 1.0 em 	h2 = 0.5 em 		p = 0.25 em
 html {
     height: 100%;
     background: radial-gradient(ellipse at bottom, var(--Navy) 0%, var(--Navy) 100%);
-
 }
 
 body, h1, h2, p{
 	margin:  0  ;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: var(--font-sansSerif);
 }
-
 
 h1{
 	font-size: 3.0em;
@@ -67,7 +68,6 @@ p{
 	line-height: 1.6;
 	font-size: 1.0em;
 }
-
 
 
 
@@ -92,7 +92,7 @@ h2, .color-blue{
 }
 
 .font-Fancy{
-	font-family: 'Playfair Display', serif;
+	font-family: var(--font-serif);
 }
 
 a:hover{
@@ -135,7 +135,6 @@ a, a:active {
 	z-index: 1;
 }
 
-
 .div-contactMe{
 	width: 40vw;
 	height: 90vh;
@@ -158,6 +157,38 @@ a, a:active {
 	z-index: 1;
 }
 
+
+
+
+
+/* ---------------- NAVBAR -------------------*/
+
+.navbar{
+	background-color: var(--Navy);
+}
+
+.navbar-brand{
+	color: var(--Yellow);
+}
+
+.navbar-nav .nav-link.active{
+	color: var(--Blue);
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link.active:hover{
+	color: var(--Yellow);
+}
+
+.nav-item{
+  padding-left:50px;
+  padding-right:50px;
+}
+
+
+/* Change burger to white */
+.fancy-toggler.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(24, 90, 219, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
 
 
@@ -286,32 +317,6 @@ padding: 25px;
 
 
 
-
-/* --------- Nav bar */
-
-.nav {
-	position: sticky;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	height: 5vh;
-	top: 0;
-	background: var(--Navy);
-	z-index: 2;
-	color:#185ADB ;
-}
-
-.nav__title {
-	margin: 0px 30px;
-	background: var(--Navy)
-}
-.nav__item{
-	display: inline-block;
-	margin: 0px 30px;
-	background: var(--Navy);
-	color:#185ADB ;
-	text-decoration: none;
-}
 
 
 
