@@ -54,14 +54,11 @@ body, h1, h2, p{
 }
 
 h1{
-	font-size: 3.0em;
+	font-size: 350%;
 }
 
 h2{
-	font-size: 2.0em;
-	text-align: left;
-	padding-top: 30px;
-	padding-left: 50px;
+	font-size: 200%;
 }
 
 p{
@@ -107,11 +104,6 @@ a, a:active {
 
 
 /* -------- Sections */
-.div-hero{
-	width: 100vw;
-	height: 100vh;
-	background-color: var(--Navy);
-}
 
 
 .div-aboutMe{
@@ -188,6 +180,29 @@ a, a:active {
 /* Change burger to white */
 .fancy-toggler.navbar-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(24, 90, 219, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/* ---------------- HERO -------------------*/
+
+#sec-hero{
+	width: 100vw;
+	height: 100%;
+	background-color: var(--Navy);
+}
+
+.hero-flex-container{
+	display: flex;
+	flex-direction: column;
+	min-height: 97vh;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.hero-flex-item{
+	margin: 2% 0 2% 0;
+	padding: 0 3% 0 3%;
 }
 
 
@@ -320,7 +335,6 @@ padding: 25px;
 
 
 
-
 /* -----  Contact form */
 
 .div-form{
@@ -445,4 +459,5 @@ textarea{
 	padding: 0;
 	top: 0;
 	position: absolute;
+
 }
