@@ -118,7 +118,6 @@ a, a:active {
 .flex-container{
 	display: flex;
 	flex-direction: row;
-	min-height: 100vh;
 	justify-content: space-between;
 }
 
@@ -148,7 +147,6 @@ a, a:active {
 
 .sec-basic{
 	width: 90vw;
-	min-height: 100vh;
 	background-color: var(--Navy);
 	margin: auto;
 	position: relative;
@@ -159,7 +157,7 @@ a, a:active {
 	width: 90vw;
 	background-color: var(--Grey);
 	margin: auto;
-	min-height: 100vh;
+	min-height: 80vh;
 	position: relative: ;
 	z-index: 100;
 }
@@ -168,7 +166,7 @@ a, a:active {
 	width: 90vw;
 	background-color: var(--DarkGrey);
 	margin: auto;
-	min-height: 100vh;
+	min-height: 80vh;
 	position: relative: ;
 	z-index: 100;
 }
