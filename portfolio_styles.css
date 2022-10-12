@@ -72,7 +72,8 @@ h3{
 
 p{
 	line-height: 1.6;
-	font-size: 1.0em;
+	font-size: 1.1em;
+	margin: 7% 0;
 }
 
 
@@ -133,7 +134,7 @@ a, a:active {
 }
 
 .title-padding-top{
-	padding-top: 10%;
+	padding-top: 12%;
 }
 
 
@@ -232,29 +233,11 @@ a, a:active {
 
 /* ---------------- ABOUT ME -------------------*/
 
-.about-flex-continer{
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-	align-items: center;
-	position: relative;
-}
 
-
-
-.about-flex-item{
-	margin: 0 0 0 0;
-	padding: 3% 3% 0 3%;
-	min-height: 100%;	
-}
-
-#about-title{
-	padding-top: 4%;
-}
 
 #fig-timeline{
-	width: 90%;
-	padding-top: 2%;
+	width: 70%;
+	padding-top: 10%;
 	display: block;
   margin-left: auto;
   margin-right: auto;
@@ -337,9 +320,7 @@ a, a:active {
 
 /* ---------------- CONTACT -------------------*/
 
-#p-contact{
-	margin-top: 10%;
-}
+
 
 .div-socials-border{
 	display: flex;
@@ -423,6 +404,8 @@ textarea{
   cursor: pointer;
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 50px;
 }
 
 
