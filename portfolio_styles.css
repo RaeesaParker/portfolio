@@ -69,7 +69,7 @@ h3{
 p{
 	line-height: 1.6;
 	font-size: 1.0em;
-	margin-bottom: 0;
+	margin-bottom: 0.5%;
 	margin-top: 0.5%;
 }
 
@@ -88,11 +88,11 @@ p{
 
 .color-grey{
 	color: var(--Grey);
-	margin-bottom: 0.5em;
 }
 
 h2, h3, .color-blue{
 	color: var(--Blue);
+	text-align: center;
 }
 
 .font-Fancy{
@@ -109,6 +109,22 @@ a, a:active {
 }
 
 
+/* OTHER CLASSES */
+.h3-margB{
+	margin-bottom: 1%;
+}
+
+.title-padding-top{
+	padding-top: 10%;
+}
+
+
+.textbox-justify{
+	text-align: justify;
+	padding: 1% 1% 1% 0;
+}
+
+
 
 /* -------- Sections */
 
@@ -120,12 +136,26 @@ a, a:active {
 }
 
 
-.div-projects{
-	width: 80vw;
-	height: 100vh;
-	background-color: var(--DarkGrey);
+.div-sect-grey{
+	width: 90vw;
+	background-color: var(--Grey);
+	margin: auto;
+	min-height: 100vh;
+	position: relative: ;
 	z-index: 1;
 }
+
+.div-sect-darkGrey{
+	width: 90vw;
+	background-color: var(--DarkGrey);
+	margin: auto;
+	min-height: 100vh;
+	position: relative: ;
+	z-index: 1;
+}
+
+
+
 
 .div-contactMe{
 	width: 40vw;
@@ -176,11 +206,11 @@ a, a:active {
   padding-right:50px;
 }
 
-
 /* Change burger to white */
 .fancy-toggler.navbar-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(24, 90, 219, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+
 
 
 /* ---------------- HERO -------------------*/
@@ -202,15 +232,6 @@ a, a:active {
 
 /* ---------------- ABOUT ME -------------------*/
 
-.div-aboutMe{
-	width: 80vw;
-	background-color: var(--Grey);
-	margin: auto;
-	min-height: 100vh;
-	position: relative;
-	z-index: 1;
-}
-
 .about-flex-continer{
 	display: flex;
 	flex-direction: column;
@@ -225,7 +246,7 @@ a, a:active {
 	min-height: 100%;	
 }
 
-#h3-hello{
+#about-title{
 	padding-top: 4%;
 }
 
@@ -238,10 +259,55 @@ a, a:active {
 }
 
 
-.textbox-justify{
-	text-align: justify;
-	padding: 1% 1% 1% 0;
+
+/* ---------------- PROJECTS -------------------*/
+
+.project-flex-container{
+	display: flex;
+	flex-direction: row;
+	min-height: 100vh;
+	justify-content: space-between;
 }
+
+.project-flex-item{
+	flex-basis: 44vw;
+	position: relative;
+	padding: 3% 3% 0 3%;
+}
+
+
+.project-skills-flex-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.project-skills-flex-item{
+	padding: 1.5% 2% 1.5% 2%;
+  font-weight: 600;
+  color: var(--Navy);
+  border: 3px solid var(--Yellow);
+  min-width: 25%;
+  text-align: center;
+  margin-top: 6%;
+  margin-right: 5%;
+}
+
+.project-project-flex-item{
+	padding: 1.5% 2% 1.5% 2%;
+  font-weight: 600;
+  color: var(--Navy);
+  border: 3px solid var(--Yellow);
+  min-width: 25%;
+  text-align: center;
+  margin-top: 6%;
+  margin-right: 5%;
+}
+
+
+
+
 
 
 
@@ -340,20 +406,7 @@ padding: 25px;
 
 
 
-.button-skill{
-  width: 100px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-align: center;
-  font-weight: 600;
-  margin-left: 30px;
-  margin-bottom: 1px;
-  display: inline-block;
-  margin-top: 3%;
-  color: var(--Navy);
-  border: 3px solid #FFC947;
-  margin-top: 20px;
-}
+
 
 
 
