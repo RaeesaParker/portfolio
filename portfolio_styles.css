@@ -294,19 +294,51 @@ a, a:active {
   margin-right: 5%;
 }
 
-.project-project-flex-item{
-	padding: 1.5% 2% 1.5% 2%;
-  font-weight: 600;
-  color: var(--Navy);
-  border: 3px solid var(--Yellow);
-  min-width: 25%;
-  text-align: center;
-  margin-top: 6%;
-  margin-right: 5%;
+
+.project-project-flex-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 
+.project-project-flex-item{
+	align-items: center;
+	border: 3px solid var(--Yellow);
+  display: flex;
+  font-weight: 600;
+  height: 200px;
+  justify-content: center;
+  margin: 6% 2% 0 2%;
+  text-align: center;
+  width: 200px;
+}
 
+
+.project-project-flex-item a{
+	align-items: center;
+	color: var(--Navy);
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	margin: 0;
+	width: 100%;
+}
+
+.project-project-flex-item p{
+	background-color: var(--DarkGrey);
+	width: 100%;
+}
+
+
+#project-1-drumKit{
+	background-image: url("./assets/projects/1-drum-kit.png");
+}
+
+#project-2-keycode{
+	background-image: url("./assets/projects/1-drum-kit.png");
+}
 
 
 
