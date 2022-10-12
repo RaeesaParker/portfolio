@@ -234,7 +234,7 @@ a, a:active {
 
 #fig-timeline{
 	width: 70%;
-	padding-top: 10%;
+	padding-top: 7%;
 	display: block;
   margin: 0 auto 5% auto;
 }
@@ -315,6 +315,12 @@ a, a:active {
 
 
 /* ---------------- CONTACT -------------------*/
+
+
+#contact-h3{
+	padding-top: 5%;
+}
+
 
 .div-socials-border{
 	display: flex;
