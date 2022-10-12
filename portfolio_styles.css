@@ -128,7 +128,6 @@ a, a:active {
 	padding: 3% 3% 0 3%;
 }
 
-
 .h3-margB{
 	margin-bottom: 1%;
 }
@@ -239,8 +238,7 @@ a, a:active {
 	width: 70%;
 	padding-top: 10%;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 5% auto;
 }
 
 
@@ -279,7 +277,7 @@ a, a:active {
   font-weight: 600;
   height: 200px;
   justify-content: center;
-  margin: 6% 2% 0 2%;
+  margin: 6% 2% 2% 2%;
   text-align: center;
   width: 200px;
 }
@@ -319,8 +317,6 @@ a, a:active {
 
 
 /* ---------------- CONTACT -------------------*/
-
-
 
 .div-socials-border{
 	display: flex;
@@ -409,6 +405,7 @@ textarea{
   justify-content: center;
   align-items: center;
   height: 50px;
+  margin-bottom: 3%;
 }
 
 
@@ -429,6 +426,24 @@ textarea{
   background-position: 100%;
   color: var(--Blue);
 }
+
+
+
+/* ---------------- MEDIA QUERIES -------------------*/
+
+@media all and (max-width:  700px){
+	.flex-container{
+		flex-direction: column;
+	}
+	h2{
+		text-align: left;
+	}
+	.div-form{
+		margin-left: 2%;
+	}
+}
+
+
 
 
 
