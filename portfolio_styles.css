@@ -48,6 +48,10 @@ html {
     background: radial-gradient(ellipse at bottom, var(--Navy) 0%, var(--Navy) 100%);
 }
 
+body{
+	background-color: var(--Navy);
+}
+
 body, h1, h2, p{
 	margin:  0  ;
 	font-family: var(--font-sansSerif);
@@ -73,9 +77,8 @@ p{
 
 
 
-/* ---------------- Classes -------------------*/
 
-/* Colour Schemes and Fonts*/
+/* ---------------- COLOUR SCHEMES AND FONTS -------------------*/
 .color-yellow{
 	color: var(--Yellow);
 }
@@ -141,15 +144,16 @@ a, a:active {
 
 
 
-/* -------- Sections */
+/* ---------------- SECTIONS -------------------*/
 
 .sec-basic{
-	width: 100vw;
+	width: 90vw;
 	min-height: 100vh;
 	background-color: var(--Navy);
 	margin: auto;
+	position: relative;
+	z-index: 1;
 }
-
 
 .div-sect-grey{
 	width: 90vw;
@@ -157,7 +161,7 @@ a, a:active {
 	margin: auto;
 	min-height: 100vh;
 	position: relative: ;
-	z-index: 1;
+	z-index: 100;
 }
 
 .div-sect-darkGrey{
@@ -166,7 +170,7 @@ a, a:active {
 	margin: auto;
 	min-height: 100vh;
 	position: relative: ;
-	z-index: 1;
+	z-index: 100;
 }
 
 
@@ -204,6 +208,13 @@ a, a:active {
 
 /* ---------------- HERO -------------------*/
 
+#sec-hero{
+	width: 100vw;
+	min-height: 100vh;
+	background-color: var(--Navy);
+	margin: auto;
+}
+
 .hero-flex-container{
 	display: flex;
 	flex-direction: column;
@@ -228,6 +239,8 @@ a, a:active {
 	align-items: center;
 	position: relative;
 }
+
+
 
 .about-flex-item{
 	margin: 0 0 0 0;
@@ -328,7 +341,6 @@ a, a:active {
 	margin-top: 10%;
 }
 
-
 .div-socials-border{
 	display: flex;
 	border-top: 3px solid var(--Navy);
@@ -348,7 +360,6 @@ a, a:active {
 .div-socials-icon{
 	padding: 5%;
 }
-
 
 
 /* -----  Contact form */
@@ -374,7 +385,6 @@ input{
   width: 43%;
 }
 
-
 textarea{
 	background-color:var(--Grey) ;
 	height: 200px;
@@ -385,23 +395,23 @@ textarea{
 }
 
 
-
-
-
-
+/* ---------------- FOOTER -------------------*/
 
 .div-footer{
 	width: 100vw;
 	background-color: var(--Navy);
 	padding: 1%;
 	text-align: center;
-		color: var(--Blue) ;
-	font-size: 12px;
+	color: var(--Blue) ;
 }
 
 
 
-/* ---- Buttons  */
+
+
+
+
+/* ---------------- BUTTONS -------------------*/
 
 .button {
   width: 150px;
@@ -436,16 +446,7 @@ textarea{
 
 
 
-
-
-
-
-
-
-
-
-
-/* ----------- Starry Background */
+/* ---------------- STARRY BACKGROUND -------------------*/
 #stars {
     width: 1px;
     height: 1px;
