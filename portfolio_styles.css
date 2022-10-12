@@ -107,7 +107,24 @@ a, a:active {
 }
 
 
-/* OTHER CLASSES */
+
+
+/* ---------------- OTHER CLASSES -------------------*/
+
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	min-height: 100vh;
+	justify-content: space-between;
+}
+
+.flex-item{
+	flex-basis: 44vw;
+	position: relative;
+	padding: 3% 3% 0 3%;
+}
+
+
 .h3-margB{
 	margin-bottom: 1%;
 }
@@ -234,19 +251,6 @@ a, a:active {
 
 /* ---------------- PROJECTS -------------------*/
 
-.project-flex-container{
-	display: flex;
-	flex-direction: row;
-	min-height: 100vh;
-	justify-content: space-between;
-}
-
-.project-flex-item{
-	flex-basis: 44vw;
-	position: relative;
-	padding: 3% 3% 0 3%;
-}
-
 .project-skills-flex-container{
 	display: flex;
 	flex-direction: row;
@@ -316,17 +320,12 @@ a, a:active {
 
 
 
+
+
 /* ---------------- CONTACT -------------------*/
 
 #p-contact{
 	margin-top: 10%;
-}
-
-.div-contactMeMessage{
-	width: 40vw;
-	height: 90vh;
-	background-color: var(--Grey);
-	z-index: 1;
 }
 
 
@@ -355,26 +354,24 @@ a, a:active {
 /* -----  Contact form */
 
 .div-form{
-	text-align: center;
-	display: block;
-	padding-top: 50px;
-}
-
-form{
-	display: inline-block;
-	margin: 0 auto 0 auto;
+	padding-top: 15%;
 	text-align: left;
 }
 
+
+#contact-flex-item{
+	padding: 3% 1% 0 1%;
+}
+
 input{
-	background-color:#EFEFEF;
-	margin-bottom: 10px;
-	margin-right: 30px;
+	background-color: var(--Grey);
+	margin-bottom: 2%;
+	margin-right: 5%;
 	border: none;
   border-bottom: 2px solid  var(--Navy);
   line-height: 25px;
-  padding-top: 10px;
-  width: 200px;
+  padding-top: 2%;
+  width: 43%;
 }
 
 
@@ -387,15 +384,7 @@ textarea{
   border: 1px solid  var(--Navy);
 }
 
-#subject{
-	display: block;
-	width: 437px;
-}
 
-#email{
-	display: block;
-	width: 437px;
-}
 
 
 
