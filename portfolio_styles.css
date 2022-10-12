@@ -69,8 +69,6 @@ h3{
 p{
 	line-height: 1.6;
 	font-size: 1.0em;
-	margin-bottom: 0.5%;
-	margin-top: 0.5%;
 }
 
 
@@ -153,32 +151,6 @@ a, a:active {
 	position: relative: ;
 	z-index: 1;
 }
-
-
-
-
-.div-contactMe{
-	width: 40vw;
-	height: 90vh;
-	background-color: var(--Grey);
-	z-index: 1;
-}
-
-.div-contactMeMessage{
-	width: 40vw;
-	height: 90vh;
-	background-color: var(--Grey);
-	z-index: 1;
-}
-
-
-.div-footer{
-	width: 100vw;
-	height: 10vh;
-	background-color: var(--Navy);
-	z-index: 1;
-}
-
 
 
 
@@ -275,7 +247,6 @@ a, a:active {
 	padding: 3% 3% 0 3%;
 }
 
-
 .project-skills-flex-container{
 	display: flex;
 	flex-direction: row;
@@ -294,14 +265,12 @@ a, a:active {
   margin-right: 5%;
 }
 
-
 .project-project-flex-container{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 	flex-wrap: wrap;
 }
-
 
 .project-project-flex-item{
 	align-items: center;
@@ -315,8 +284,7 @@ a, a:active {
   width: 200px;
 }
 
-
-.project-project-flex-item a{
+.link-projects{
 	align-items: center;
 	color: var(--Navy);
 	display: flex;
@@ -332,56 +300,45 @@ a, a:active {
 }
 
 
+.project-image{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
 #project-1-drumKit{
 	background-image: url("./assets/projects/1-drum-kit.png");
 }
 
 #project-2-keycode{
-	background-image: url("./assets/projects/1-drum-kit.png");
+	background-image: url("./assets/projects/2-javascript.png");
 }
 
 
 
+/* ---------------- CONTACT -------------------*/
 
-/* ---------- Alignment */
-
-/* Horizontal and verticle alignment */
-.align-center{
-  margin: 0;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+#p-contact{
+	margin-top: 10%;
 }
 
-
-.flex-container{
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.div-contactMeMessage{
+	width: 40vw;
+	height: 90vh;
+	background-color: var(--Grey);
+	z-index: 1;
 }
-
-
-
-
-
-/* ----- Other Classes */
-
-
-
 
 
 .div-socials-border{
-display: flex;
-border-top: 3px solid var(--Navy);
-width: 50%;
-margin-top: 50px;
+	display: flex;
+	border-top: 3px solid var(--Navy);
+	width: 50%;
+	margin: 10% auto;
 }
 
 .div-socials{
-	 margin: 0;
+	margin: 0;
   position: relative;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
@@ -390,58 +347,8 @@ margin-top: 50px;
 }
 
 .div-socials-icon{
-margin-top: 50px;
-padding: 25px;
+	padding: 5%;
 }
-
-
-.footer-content{
-	color: var(--Blue) ;
-	font-size: 12px;
-}
-
-
-
-
-/* ---- Buttons  */
-
-.button {
-  width: 150px;
-  padding-top: 0.25%;
-  padding-bottom: 0.25%;
-  color: var(--Navy) ;
-  font-weight: 600;
-	margin: auto auto;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-}
-
-
-.button-contact {
-  color: var(--Navy);
-  border: 1px solid var(--Yellow);
-  background-image: -webkit-linear-gradient(30deg, #FFC947 50%, transparent 50%);
-  background-image: linear-gradient(30deg, #FFC947 50%, transparent 50%);
-  background-size: 500px;
-  background-repeat: no-repeat;
-  background-position: 0%;
-  -webkit-transition: background 300ms ease-in-out;
-  transition: background 300ms ease-in-out;
-}
-
-
-.button-contact:hover {
-  background-position: 100%;
-  color: var(--Blue);
-}
-
-
-
-
-
-
-
 
 
 
@@ -494,7 +401,56 @@ textarea{
 
 
 
-/* ------------------ IDs ---------------------*/
+.div-footer{
+	width: 100vw;
+	background-color: var(--Navy);
+	padding: 1%;
+	text-align: center;
+		color: var(--Blue) ;
+	font-size: 12px;
+}
+
+
+
+/* ---- Buttons  */
+
+.button {
+  width: 150px;
+  padding-top: 0.25%;
+  padding-bottom: 0.25%;
+  color: var(--Navy) ;
+  font-weight: 600;
+	margin: auto auto;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+
+.button-contact {
+  color: var(--Navy);
+  border: 1px solid var(--Yellow);
+  background-image: -webkit-linear-gradient(30deg, #FFC947 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #FFC947 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+
+
+.button-contact:hover {
+  background-position: 100%;
+  color: var(--Blue);
+}
+
+
+
+
+
+
+
 
 
 
