@@ -271,6 +271,7 @@ a, a:active {
 
 /* ---------------- PROJECTS -------------------*/
 
+
 .project-skills-flex-container{
 	display: flex;
 	flex-direction: row;
@@ -305,7 +306,8 @@ a, a:active {
   justify-content: center;
   margin: 6% 2% 2% 2%;
   text-align: center;
-  width: 150px;
+  width: 125px;
+  height: 125px;
 }
 
 .link-projects{
