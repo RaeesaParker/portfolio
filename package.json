@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaeesaParker/Portfolio.git"
+  },
+  "author": "Raeesa Parker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaeesaParker/Portfolio/issues"
+  },
+  "homepage": "https://github.com/RaeesaParker/Portfolio#readme",
+}
