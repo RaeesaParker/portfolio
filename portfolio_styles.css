@@ -75,9 +75,14 @@ h4{
 	margin-bottom: 0;
 }
 
+h5{
+	font-size: 110%;
+	margin-bottom: 0;
+}
+
 p{
 	line-height: 1.6;
-	font-size: 110%;
+	font-size: 100%;
 	margin: 7% 0;
 }
 
@@ -247,7 +252,7 @@ a, a:active {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 3% 0 0 0 ;
+	margin: 3% 0 10% 0 ;
 }
 
 .education-flex-item{
@@ -266,6 +271,69 @@ a, a:active {
 }
 
 
+/* ------- MODAL -------*/
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: var(--white); /* Fallback color */
+  background-color: rgba(0,0,0, 0.5); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: var(--Grey);
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+	display: inline;
+  color: var(--Navy);
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+  text-align: right;
+}
+
+.close:hover,
+.close:focus {
+  color: var(--Blue);
+  cursor: pointer;
+  text-decoration: none;
+} 
+
+
+
+#modal-header-name, #modal-header-date , #modal-header-place, #modal-content-para{
+	text-align: center;
+}
+
+#modal-header-name{
+	margin: 0;
+}
+
+#modal-header-date{
+	margin: 1% 0 0 0 ;
+}
+
+#modal-header-place{
+	font-style: italic;
+	margin: 1% 0 0 0 ;
+}
+
+#modal-content-para{
+	margin: 3% 0 0 0 ;
+}
 
 
 
@@ -450,6 +518,18 @@ textarea{
 }
 
 
+#button-thesis {
+	margin: 3% auto 0 auto;
+	width: 150px;
+	padding-top: 0.25%;
+  padding-bottom: 0.25%;
+  font-weight: 600;
+  cursor: pointer;
+  height: 50px;
+}
+
+
+
 .button-contact {
   color: var(--Navy);
   border: 1px solid var(--Yellow);
@@ -463,7 +543,7 @@ textarea{
 }
 
 
-.button-contact:hover {
+.button-contact:hover , #button-thesis:hover {
   background-position: 100%;
   color: var(--Blue);
 }
