@@ -2,7 +2,7 @@
 // ============= EDUCATION MODAL =============
 // ===========================================
 
-let mscDetails = "The main focus of my masters was investing planet formation in the discs surrounding young stars. I used the Lovell Telescope, located in Manchester, UK, in order to observe the young stellar object DG Tau B. Observations were used to determine if the process of planet formation had began around this young star."
+let mscDetails = "The main focus of my masters was investigating planet formation in the discs surrounding young stars. I used the Lovell Telescope, located in Manchester, UK, in order to observe the young stellar object DG Tau B. Observations were used to determine if the process of planet formation had began around this young star."
 
 let phdDetails = "My PhD focussed primarily on the planet formation process around young stars. Data from the radio telescope ALMA, as well as from smooth particle hydrodynamic simulations were used to conduct this work. Over 1000 observations from ALMA of the discs surrounding young stellar objects were looked. This was done in order to find various structures in the dust and gas surrounding the stars - often an indicator of planet formation. Observations were then compared to SPH simulations in order to determine the nature of the planet formation process. "
 
