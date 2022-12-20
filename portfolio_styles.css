@@ -112,7 +112,7 @@ h2, h3, .color-blue{
 }
 
 a:hover{
-	color: var(--Yellow);
+	color: var(--Blue);
 }
 
 a, a:active {
@@ -169,7 +169,7 @@ a, a:active {
 	background-color: var(--Grey);
 	margin: auto;
 	min-height: 80vh;
-	position: relative: ;
+	position: relative;
 	z-index: 100;
 }
 
@@ -178,7 +178,7 @@ a, a:active {
 	background-color: var(--DarkGrey);
 	margin: auto;
 	min-height: 80vh;
-	position: relative: ;
+	position: relative ;
 	z-index: 100;
 }
 
@@ -260,6 +260,11 @@ a, a:active {
 	padding: 3% 7%;
 	text-align: center;
 }
+/* 
+.education-flex-item:hover{
+	cursor: pointer;
+	background-color: var(--DarkGrey);
+} */
 
 .education-para{
 	margin: 0;
@@ -311,8 +316,6 @@ a, a:active {
   cursor: pointer;
   text-decoration: none;
 } 
-
-
 
 #modal-header-name, #modal-header-date , #modal-header-place, #modal-content-para{
 	text-align: center;
@@ -400,21 +403,18 @@ a, a:active {
 	background-size: contain;
 }
 
-#project-1-drumKit{
-	background-image: url("./assets/projects/1-drum-kit.png");
+#project-1-neighbour{
+	background-image: url("./assets/projects/1-neighbour.png");
 }
 
-#project-2-keycode{
-	background-image: url("./assets/projects/2-javascript.png");
+#project-2-pinit{
+	background-image: url("./assets/projects/2-pinit.png");
 }
 
-#project-3-keycode{
+
+#project-3-dice{
 	background-image: url("./assets/projects/3-dice-game.png");
 }
-#project-4-pokemon{
-	background-image: url("./assets/projects/4-pokepet.png");
-}
-
 
 
 
