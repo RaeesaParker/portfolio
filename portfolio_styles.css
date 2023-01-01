@@ -153,6 +153,35 @@ a, a:active {
 }
 
 
+.hovertext {
+  position: relative;
+  font-size: 0.8rem;
+  }
+
+.hovertext:before {
+	background-color: var(--Navy);
+	border-radius: 5px;
+	color: var(--Yellow);
+	content: attr(data-hover);
+	margin: 0 auto;
+	opacity: 0.5;
+	padding: 5px 0;
+	position: absolute;
+	text-align: center;
+	top: 150%;
+	visibility: hidden;
+	width: 100%;
+	z-index: 1;
+}
+
+.hovertext:hover:before {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+
+
 
 /* ---------------- SECTIONS -------------------*/
 
