@@ -41,6 +41,7 @@ button.setAttribute("class", "button-contact")
 button.setAttribute("id", "button-thesis")
 // Create the anchot tag to go inside button
 let anchor = document.createElement("a")
+anchor.setAttribute("id", "anchor-thesis")
 button.appendChild(anchor)
 
 
@@ -113,7 +114,7 @@ function createModal(event){
 		modalContentDiv.appendChild(button); 
 	}
 	else if (buttonClicked == "2022"){
-		 educationClicked = webItem
+		educationClicked = webItem
 		anchor.href = "https://github.com/RaeesaParker"
 		anchor.innerText = "GitHub"
 		anchor.target="_blank"
