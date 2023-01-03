@@ -59,10 +59,12 @@ body, h1, h2, p{
 
 h1{
 	font-size: 350%;
+	text-shadow: 2px 2px 2px black;
 }
 
 h2{
 	font-size: 200%;
+	text-shadow: 2px 2px 2px black;
 }
 
 h3{
