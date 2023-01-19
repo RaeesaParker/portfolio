@@ -404,6 +404,10 @@ a, a:active {
   margin-right: 5%;
 }
 
+#devloping-title{
+	font-size: 130%;
+}
+
 .project-project-flex-container{
 	display: flex;
 	flex-direction: row;
