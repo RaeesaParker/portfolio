@@ -410,9 +410,12 @@ a, a:active {
 
 .project-project-flex-container{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
-	flex-wrap: wrap;
+}
+
+.project-project-item{
+	display: flex;
 }
 
 .project-project-flex-item{
@@ -420,12 +423,11 @@ a, a:active {
 	border: 3px solid var(--Yellow);
   display: flex;
   font-weight: 600;
-  height: 150px;
+  height: 125px;
   justify-content: center;
   margin: 6% 2% 2% 2%;
   text-align: center;
-  width: 125px;
-  height: 125px;
+  min-width: 125px;
 }
 
 .link-projects{
